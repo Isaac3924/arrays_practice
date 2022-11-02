@@ -23,3 +23,9 @@ p "Print bools[4] as false: #{bools[4]}"
 p "Print nums[0] as 86: #{nums[0]}"
 
 p "Print floats[1] as 4.69: #{floats[1]}"
+
+#The 'insert' array method allows you to add any number of new elements starting at the element position you provide.
+#For example, below will change my 'foods' array to: cheese, steak, chicken, sausage, celery, watermelon, ice cream
+foods.insert(2, "chicken", "sausage")
+
+p foods
