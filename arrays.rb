@@ -15,3 +15,11 @@ foods.push("ice creaam")
 #Adds the false, true, and true boolean values in that exact order to the start of the 'bools' array, increasing the elements 
 #of the array by 3 to a total of 7.
 bools.unshift(false, true, true)
+
+p "Print foods[2] as celery: #{foods[2]}"
+
+p "Print bools[4] as false: #{bools[4]}"
+
+p "Print nums[0] as 86: #{nums[0]}"
+
+p "Print floats[1] as 4.69: #{floats[1]}"
